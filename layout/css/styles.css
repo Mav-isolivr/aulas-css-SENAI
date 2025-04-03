@@ -384,8 +384,34 @@ nav ul li{
     margin: 0 14px;
 }
 
+/* desing responsivel */
+
+@media (max-width:480px){
+    .container{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .cta p, .testimonials h3{
+        width: 100%;
+    }
+
+    .brands, .about-us-video{
+        display: none;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .works .img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .ready fieldset{
+        flex-direction: column;
+    }
 
 
-
-
-
+}
